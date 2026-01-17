@@ -21,3 +21,14 @@ Cargo.lock
 
 # Dependencies
 /Cargo.lock
+
+# Files without extensions
+*
+!*/
+!*.*
+
+# macOS
+.DS_Store
+.DS_Store
+**/target/
+**/*.rs.bk
