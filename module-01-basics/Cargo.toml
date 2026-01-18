@@ -1,0 +1,27 @@
+[package]
+name = "module-01-basics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# Define multiple binaries for each example
+[[bin]]
+name = "01-basics-variable-and-immutability"
+path = "src/01-basics-variable-and-immutability.rs"
+
+[[bin]]
+name = "02-declarative-macros"
+path = "src/02-declarative-macros.rs"
+
+[[bin]]
+name = "03-variables-and-types"
+path = "src/03-variables-and-types.rs"
+
+[[bin]]
+name = "04-flow-control"
+path = "src/04-flow-control.rs"
+
+[[bin]]
+name = "05-enums"
+path = "src/05-enums.rs"
