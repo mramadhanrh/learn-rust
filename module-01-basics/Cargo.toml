@@ -25,3 +25,11 @@ path = "src/04-flow-control.rs"
 [[bin]]
 name = "05-enums"
 path = "src/05-enums.rs"
+
+[[bin]]
+name = "06-vectors"
+path = "src/06-vectors.rs"
+
+[[bin]]
+name = "101-fibonacci-sequence"
+path = "src/101-fibonacci-sequence.rs"
